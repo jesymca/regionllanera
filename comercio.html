@@ -8,34 +8,42 @@
 	<meta name="author" content="JOSE HERRERA">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- CSS Links -->
-	<link rel="stylesheet" href="funciones/fontawesome-free-5.15.4-web/css/all.css" >
+	<link rel="stylesheet" href="funciones/fontawesome-free-5.15.4-web/css/all.css" />
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
-	<title>Comercio Region los Llanos</title>
+	<title>Comercio Region Los Llanos</title>
 </head>
 <body onload="preloader()">
-
+	<div id="preloader">
+		<div class="lds-ripple">
+			<div></div>
+			<div></div>
+		</div>
+	</div>
 	<div class="container" id="wrapper">
 		<div class="row">
 			<div class="col-md-3" id="sidebar">
 				<div class="logo">
 					<img src="img/km-logo.png" alt="logo">
 				</div>
+				
 				<!-- BARRA LATERAL CON LOS LINK -->
 				<div id="barralateral"></div>
-
 				<i class="far fa-ellipsis-v"></i>
+				<!-- COPYRIGHT -->
 				<div class="copyright">
 					<div id="copyright"></div>
 				</div>
 			</div>
 			<div class="col-md-9">
 				<div id="main-area">
-					<div class="content-section">
+					<div class="content-section about">	
+						
+						<!-- CARRUSEL DE IMAGENES-->
 						<div class="section-heading">
-							<h2 class="display-4">COMERCIO <i class="fa fa-cash-register small"></i></h2>
+							<h2 class="display-4">Comercio <i class="fa fa-cash-register small"></i></h2>
 						</div>
 						<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 							<ol class="carousel-indicators">
@@ -134,25 +142,33 @@
 						    <span class="sr-only">Next</span>
 						  </a>
 						</div>
-					</div>  <!-- Content Section End -->
-					<div class="footer">
+						
+						<!-- CAJA DE TEXTO-->
 						<div class="row">
-							<div class="col-lg-4 col-md-12 order-lg-2"></div>
-							<div class="col-lg-8 col-md-12 order-lg-1 social-links">
-								<div class="social-links">
-									<a href="https://www.jesuministrosymas.com.ve">
-										<i class="fas fa-globe"></i> Website
-									</a>
-									<a href="mailto:jose@jesuministrosymas.com.ve">
-										<i class="fa fa-envelope"></i> Email
-									</a>
-									<a href="https://www.facebook.com/joher60/">
-										<i class="fab fa-facebook"></i> Facebook
-									</a>
+							<div class="col-lg-12">
+								<div class="card">
+								  <div class="card-body">
+								    <h5 class="card-title">Introduction</h5>
+								    <p class="card-text">
+								    	Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, veritatis quae quos debitis. Ab assumenda laudantium, delectus eius sed inventore beatae consequuntur ex, exercitationem quod totam facilis reprehenderit dolor, voluptates cumque. Deleniti unde magnam aliquam laudantium vitae nam odio iusto! Sequi maxime impedit atque, unde
+								    </p>
+								    <p>	
+								    	Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Totam, eveniet nostrum deserunt reprehenderit in voluptates accusamus, obcaecati quam, expedita, odio sequi laborum dolores officia consequatur!
+								    </p>
+								    <p>	
+								    	Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, eligendi eius perferendis sit. Eum, hic.
+								    </p>
+								    <p>	
+								    	Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Temporibus, necessitatibus recusandae et, doloremque architecto dolorum vitae laborum cupiditate atque commodi.
+								    </p>
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eum esse odio, laborum beatae quo dolorum corrupti quam cum, tempora consequuntur perspiciatis saepe veritatis blanditiis fugiat laudantium! Id, optio numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio in temporibus. Corrupti obcaecati rem quis, laboriosam dicta perspiciatis! Distinctio officiis nemo blanditiis velit cum tenetur eaque commodi perspiciatis reiciendis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste soluta provident quidem nemo, vero dolorem eius nesciunt repudiandae ullam asperiores at error. Dolores quisquam dolorem molestiae sapiente saepe error mollitia.</p>
+								  </div>
 								</div>
-							</div>
+							</div>					
 						</div>
-					</div>
+					</div>  <!-- Content Section End -->
+					<!-- Footer del Sitio -->
+					<div id="footer"></div>
 				</div>
 			</div>
 		</div>
@@ -164,7 +180,7 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/custom-function.js"></script>
+	<script type="text/javascript" src="js/kernel.js"></script>
 	<script type="text/javascript" src="funciones/fontawesome-free-5.15.4-web/js/all.js"></script>
-	<script src="js/kernel.js"></script>
 </body>
 </html>
