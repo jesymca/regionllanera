@@ -17,7 +17,11 @@ HTML CSS Javascript
 ## Autores ✒️
 
 * **JOSE HERRERA** - *Trabajo Inicial* - [Jose Herrera](https://www.instagram.com/joher60/) - *Contacto*
-* **OTROS MIEMBROS**
+* **PEDRO PRINCE**
+* **LUIS PINEDA**
+* **MARWIN FIGUEREDO**
+* **RONAL MARTINEZ**
+* **JOSE HERRERA**
 
 ## Licencia 📄
 Este proyecto está bajo la Licencia (GNU V3.0) - mira el archivo [LICENSE](LICENSE) para detalles

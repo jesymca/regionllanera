@@ -1,3 +1,30 @@
+document.addEventListener("DOMContentLoaded", function() {
+	// VARIABLES
+	var copyright = '<p>&copy; 2023 | Grupo de Informatica UPTPC</p>';
+	var footer = `<div class="footer">
+	<div class="row">
+		<div class="col-lg-4 col-md-12 order-lg-2"></div>
+		<div class="col-lg-8 col-md-12 order-lg-1 social-links">
+			<div class="social-links">
+				<a href="https://www.jesuministrosymas.com.ve">
+					<i class="fas fa-globe"></i> Website
+				</a>
+				<a href="mailto:jose@jesuministrosymas.com.ve">
+					<i class="fa fa-envelope"></i> Email
+				</a>
+				<a href="https://www.facebook.com/joher60/">
+					<i class="fab fa-facebook"></i> Facebook
+				</a>
+			</div>
+		</div>
+	</div>
+</div>`;
+  
+	// DECLARACIONES
+	document.getElementById('copyright').innerHTML = copyright;
+	document.getElementById('footer').innerHTML = footer;
+  });
+
 function changeButton(selected, e) {
 	var oldActive = document.getElementsByClassName("active");
 	for (var i = 0; i < oldActive.length; i++) {
