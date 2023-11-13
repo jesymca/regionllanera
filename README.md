@@ -20,7 +20,7 @@ HTML CSS Javascript
 * **PEDRO PRINCE**
 * **LUIS PINEDA**
 * **MARWIN FIGUEREDO**
-* **RONAL MARTINEZ**
+* **RONALD MARTINEZ**
 
 ## Licencia 📄
 Este proyecto está bajo la Licencia (GNU V3.0) - mira el archivo [LICENSE](LICENSE) para detalles
