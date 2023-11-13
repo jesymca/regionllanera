@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+
 	// VARIABLES
 	var copyright = '<p>&copy; 2023 | Grupo de Informatica UPTPC</p>';
 	var footer = `<div class="footer">
