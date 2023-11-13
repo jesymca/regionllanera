@@ -6,13 +6,13 @@ document.addEventListener("DOMContentLoaded", function() {
 		<div class="col-lg-4 col-md-12 order-lg-2"></div>
 		<div class="col-lg-8 col-md-12 order-lg-1 social-links">
 			<div class="social-links">
-				<a href="https://www.jesuministrosymas.com.ve">
+				<a target="_blank" href="https://www.jesuministrosymas.com.ve">
 					<i class="fas fa-globe"></i> Website
 				</a>
-				<a href="mailto:jose@jesuministrosymas.com.ve">
+				<a target="_blank" href="mailto:jose@jesuministrosymas.com.ve">
 					<i class="fa fa-envelope"></i> Email
 				</a>
-				<a href="https://www.facebook.com/joher60/">
+				<a target="_blank" href="https://www.facebook.com/joher60/">
 					<i class="fab fa-facebook"></i> Facebook
 				</a>
 			</div>
