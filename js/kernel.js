@@ -16,14 +16,22 @@ document.addEventListener("DOMContentLoaded", function() {
 		<div class="col-lg-8 col-md-12 order-lg-1 social-links">
 			<div class="social-links">
 				<a target="_blank" href="https://www.jesuministrosymas.com.ve">
-					<i class="fas fa-globe"></i> Website
+					<i class="fas fa-globe"></i> Website Gestion
 				</a>
+				<!--
 				<a target="_blank" href="mailto:jose@jesuministrosymas.com.ve">
 					<i class="fa fa-envelope"></i> Email
 				</a>
-				<a target="_blank" href="https://www.facebook.com/joher60/">
+				-->
+				<a target="_blank" href="https://www.facebook.com/uptpc/">
 					<i class="fab fa-facebook"></i> Facebook
 				</a>
+				<a target="_blank" href="https://www.instagram.com/uptpc.oficial.es">
+					<i class="fab fa-instagram"></i> Instagram
+				</a>
+				<a target="_blank" href="https://www.tiktok.com/@uptpc.ifucial.es">
+				<i class="fab fa-tiktok"></i> TikTok
+			</a>
 			</div>
 		</div>
 	</div>
