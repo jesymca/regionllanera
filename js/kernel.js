@@ -1,6 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
 
 	// VARIABLES
+	var logos = `<div class="d-flex">
+	<div class="logo">
+		<img src="img/km-logo.png" alt="logo">
+	</div>
+	<div class="logo">
+		<img src="img/km-logo-pnf.png" alt="logo">
+	</div>
+</div>`;
 	var copyright = '<p>&copy; 2023 | Grupo de Informatica UPTPC</p>';
 	var footer = `<div class="footer">
 	<div class="row">
@@ -24,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	// DECLARACIONES
 	document.getElementById('copyright').innerHTML = copyright;
 	document.getElementById('footer').innerHTML = footer;
+	document.getElementById('logos').innerHTML = logos;
   });
 
 function changeButton(selected, e) {
