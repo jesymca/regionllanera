@@ -84,6 +84,9 @@ function changeButton(selected, e) {
 						  <li class='nav-item'>
 							<a class='nav-link' href='creadores.html' data-toggle="tab"><i class='fa fa-users'></i> Creadores</a>
 						  </li>
+						  <li class='nav-item'>
+						  <a class='nav-link' href='sobre.html' data-toggle="tab"><i class='fa fa-address-card'></i> Sobre el Sitio</a>
+						</li>
 						  </ul>`;
   
 	document.getElementById('barralateral').innerHTML = barralateral;
