@@ -99,19 +99,27 @@ function changeButton(selected, e) {
 	// Llamar a handleClick después de que se haya cargado la barra lateral
 	handleClick();
 
-	// Obtener la ruta de la página actual
-	var currentPath = window.location.pathname;
+// Obtener la ruta de la página actual
+var currentPath = window.location.pathname;
 
-	// Obtener todos los enlaces de la barra lateral
-	var navLinks = document.getElementsByClassName('nav-link');
+// Extraer solo el nombre del archivo de la ruta
+var currentPage = currentPath.substring(currentPath.lastIndexOf('/') + 1);
 
-	// Recorrer todos los enlaces
-	for (var i = 0; i < navLinks.length; i++) {
-		// Si la ruta del enlace coincide con la ruta de la página actual, agregar la clase 'active'
-		if (navLinks[i].getAttribute('href') === currentPath) {
-			navLinks[i].classList.add('active');
-		}
+// Obtener todos los enlaces de la barra lateral
+var navLinks = document.getElementsByClassName('nav-link');
+
+// Recorrer todos los enlaces y eliminar la clase 'active'
+for (var i = 0; i < navLinks.length; i++) {
+	navLinks[i].classList.remove('active');
+}
+
+// Recorrer todos los enlaces
+for (var i = 0; i < navLinks.length; i++) {
+	// Si el enlace coincide con la página actual, agregar la clase 'active'
+	if (navLinks[i].getAttribute('href') === currentPage) {
+		navLinks[i].classList.add('active');
 	}
+}
 }
   
 barralateral();
