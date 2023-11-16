@@ -76,7 +76,7 @@ function changeButton(selected, e) {
 							<a class='nav-link' href='cultura.html' data-toggle="tab"><i class='fa fa-hat-cowboy'></i> Cultura</a>
 						  </li>
 						  <li class='nav-item'>
-							<a class='nav-link' href='tecnologia.html' data-toggle="tab"><i class='fa fa-address-card'></i> Tecnologia</a>
+							<a class='nav-link' href='tecnologia.html' data-toggle="tab"><i class='fa fa-bezier-curve'></i> Tecnologia</a>
 						  </li>
 						  <li class='nav-item'>
 							<a class='nav-link' href='agropecuaria.html' data-toggle="tab"><i class='fa fa-tractor'></i> Agropecuaria</a>
@@ -98,6 +98,20 @@ function changeButton(selected, e) {
   
 	// Llamar a handleClick después de que se haya cargado la barra lateral
 	handleClick();
-  }
+
+	// Obtener la ruta de la página actual
+	var currentPath = window.location.pathname;
+
+	// Obtener todos los enlaces de la barra lateral
+	var navLinks = document.getElementsByClassName('nav-link');
+
+	// Recorrer todos los enlaces
+	for (var i = 0; i < navLinks.length; i++) {
+		// Si la ruta del enlace coincide con la ruta de la página actual, agregar la clase 'active'
+		if (navLinks[i].getAttribute('href') === currentPath) {
+			navLinks[i].classList.add('active');
+		}
+	}
+}
   
-  barralateral();
+barralateral();

@@ -1,0 +1,144 @@
+/*================================================
+Main Services Area CSS
+=================================================*/
+.main-services-area {
+    padding-bottom: 70px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .main-services-box {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.2);
+            box-shadow: 0 10px 55px 5px rgba(137 173 255 / 40%);
+    padding: 25px 20px;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  
+  .main-services-box .icon {
+    margin-bottom: 20px;
+      text-align: center;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+      background-color: #0dcaf0;
+      color: #ffffff;
+      font-size: 18px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+  }
+  
+  .main-services-box h3 {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-bottom: 0;
+    position: relative;
+    padding-bottom: 0px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  
+  .main-services-box h3 a {
+    color: #0062a1;
+    font-weight: 500px !important;
+  }
+  
+  .main-services-box h3::before {
+    width: 0;
+    height: 1px;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .main-services-box p {
+    line-height: 1.5;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  
+  .main-services-box::before {
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #167ac6;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .main-services-box::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 10px solid #ffffff;
+    left: -80px;
+    bottom: -80px;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.15;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .main-services-box1 {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.2);
+            box-shadow: 0 10px 55px 5px rgba(137 173 255 / 40%);
+    padding: 12px 20px;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  
+  .main-services-box:hover {
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+  
+  .main-services-box:hover::before {
+    width: 100%;
+  }
+  
+  .main-services-box:hover .icon {
+    background-color: #ffffff;
+    color: #0062a1;
+  }
+  .main-services-box:hover .imagen-oscura {
+    background-image: url(../img/veneos.png);
+  }
+  .main-services-box:hover h3 a {
+    color: #ffffff;
+  }
+  
+  .main-services-box:hover h3::before {
+    width: 80px;
+  }
+  
+  .main-services-box:hover p {
+    color: #ffffff;
+  }
+  
+  .main-services-box:hover::after {
+    left: -50px;
+    bottom: -50px;
+  }
