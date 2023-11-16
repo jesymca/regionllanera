@@ -9,7 +9,7 @@ _En esta pagina hacemos uso de diferentes componentes que nos ofrece Bootstrap c
 
 
 ## Pre-requisitos 📋
-Ninguno necesario, se descarga y se corre en cualquier plataforma
+Ninguno necesario, se descarga y se corre en cualquier plataforma desde el navegador web de su preferencia.
 
 ## Construido con 🛠️
 HTML CSS Javascript

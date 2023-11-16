@@ -1,20 +1,37 @@
 document.addEventListener("DOMContentLoaded", function() {
+
 	// VARIABLES
+	var logos = `<div class="d-flex">
+	<div class="logo">
+		<img src="img/km-logo.png" alt="logo">
+	</div>
+	<div class="logo">
+		<img src="img/km-logo-pnf.png" alt="logo">
+	</div>
+</div>`;
 	var copyright = '<p>&copy; 2023 | Grupo de Informatica UPTPC</p>';
 	var footer = `<div class="footer">
 	<div class="row">
 		<div class="col-lg-4 col-md-12 order-lg-2"></div>
 		<div class="col-lg-8 col-md-12 order-lg-1 social-links">
 			<div class="social-links">
-				<a href="https://www.jesuministrosymas.com.ve">
-					<i class="fas fa-globe"></i> Website
+				<a target="_blank" href="https://www.jesuministrosymas.com.ve">
+					<i class="fas fa-globe"></i> Website Gestion
 				</a>
-				<a href="mailto:jose@jesuministrosymas.com.ve">
+				<!--
+				<a target="_blank" href="mailto:jose@jesuministrosymas.com.ve">
 					<i class="fa fa-envelope"></i> Email
 				</a>
-				<a href="https://www.facebook.com/joher60/">
+				-->
+				<a target="_blank" href="https://www.facebook.com/uptpc/">
 					<i class="fab fa-facebook"></i> Facebook
 				</a>
+				<a target="_blank" href="https://www.instagram.com/uptpc.oficial.es">
+					<i class="fab fa-instagram"></i> Instagram
+				</a>
+				<a target="_blank" href="https://www.tiktok.com/@uptpc.ifucial.es">
+				<i class="fab fa-tiktok"></i> TikTok
+			</a>
 			</div>
 		</div>
 	</div>
@@ -23,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	// DECLARACIONES
 	document.getElementById('copyright').innerHTML = copyright;
 	document.getElementById('footer').innerHTML = footer;
+	document.getElementById('logos').innerHTML = logos;
   });
 
 function changeButton(selected, e) {
